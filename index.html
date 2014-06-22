@@ -1,7 +1,7 @@
 ---
 layout: post-index
 title: Web Developer
-description: "Describe this nonsense."
+description: "Learn to develop from someone who was once as clueless as you."
 tags: [web development, programming, Ruby, CSS, Sass, Foundation, Compass, Git]
 image:
   feature: abstract-1.jpg
@@ -9,30 +9,18 @@ image:
   <!-- creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/ -->
 ---
 
-{% for post in paginator.posts %}
-<article class="hentry">
-  <header>
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}
-      {% if site.reading_time %}
-      <span class="entry-reading-time pull-right">
-        <i class="fa fa-clock-o"></i>
-        {% assign readtime = post.content | number_of_words | divided_by:site.words_per_minute %}
-        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-      </span><!-- /.entry-reading-time -->
-      {% endif %}
-    </div><!-- /.entry-meta -->
-    {% if post.link %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><i class="fa fa-angle-double-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
-  </header>
-  <div class="entry-content">
-    {{ post.content }}
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-{% endfor %}
+<h2>Summer of fun!</h2>
+<p>So I'm learning how to code/develop/program/all the above and it is a blast. It's difficult and when thte code doesn't work
+there's not much more frustrating. But when it does work, there's nothing more satisfying. (ok, dramatic, but it's amazing
+when you get something to work.</p>
+
+<p>This blog will be helping those who are also learning to code. Unfortunately the documentation online seems to be mostly for 
+those who already know how to code - which really does no one any good. I can write from the point of view of someone who doesn't
+have a technical background and can go over things I didn't understand. </p>
+
+<p>Feel free to follow me on <a href="https://github.com/trevordjones">Github</a> to check out my latest projects. (Not much on there now...but there will be.) This site will also be home to other websites I start pitching in on.<p>
+
+<h3>Check out my posts and enjoy!</h3>
 
 <div class="pagination">
   {% if paginator.previous_page %}
