@@ -20,6 +20,8 @@ have a technical background and can go over things I didn't understand. </p>
 
 <h3><a href="{{ site.url }}/posts/">Check out my posts and enjoy!</a></h3>
 
+<hr>
+
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
@@ -40,7 +42,7 @@ have a technical background and can go over things I didn't understand. </p>
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
+    {{ post.content | strip_html | truncatewords:150}}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
@@ -79,4 +81,4 @@ have a technical background and can go over things I didn't understand. </p>
   {% else %}
     Next
   {% endif %}
-</div>  <!-- This is the pagination code -->
+</div>
