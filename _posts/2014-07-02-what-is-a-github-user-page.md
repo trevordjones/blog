@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What are User Pages and Github Pages in Github?
-description: "This gives a tutorial on creating a User page and explains the differences of a Github User page and Project page.
+description: "This gives a tutorial on creating a User page and explains the differences of a Github User page and Project page"
 tags: [Github, User Page, Project page, Github Repositories]
 image:
   feature: abstract-8.jpg
