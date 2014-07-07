@@ -20,7 +20,7 @@ Just look at the last section, 'The simple way to do it':
 You're just changing the path names. So if you want to change the '/users/sign-up' route as well, just include it after 'logout', so:
 `devise_for :users, :path => '', :path_names => {:sign_in => 'login', :sign_out => 'logout', :sign_up => 'sign-up'}`. The default path is listed first and it points to (=>) the path you want (it also goes ahead and takes out the 'users' part of the url as well).  If you need the default routes, they are:
 
-{% raw %}
+{% highlight %}
 new_user_session_path	 GET	 /users/sign_in(.:format)	 devise/sessions#new
 user_session_path	 POST	 /users/sign_in(.:format)	 devise/sessions#create
 destroy_user_session_path	 DELETE	 /users/sign_out(.:format)	 devise/sessions#destroy
@@ -36,6 +36,6 @@ edit_user_registration_path	 GET	 /users/edit(.:format)	 devise/registrations#ed
 PATCH	 /users(.:format)	 devise/registrations#update
 PUT	 /users(.:format)	 devise/registrations#update
 DELETE	 /users(.:format)	 devise/registrations#destroy
-{% endraw %}
+{% endhighlight %}
 
 Doesn't make sense - ask away below.
