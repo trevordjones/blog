@@ -32,7 +32,7 @@ If you don't want to use one of Githubs themes for User pages, you don't need to
 2. Next you'll see a page that looks like the image below. Copy the link under the 'Quick Setup' section. It should look like 'https://github.com/username/userpagename.git' - your repo is now created! 
 pic
 3. Go to your terminal, be sure you're in the folder that holds your theme (I recommend calling your folder the same name as your Github repo), then enter the command: `git remote add origin` and past the url you copied in step 2. Hit enter.
-4. Now push your folder to github so the theme can be applied to your User page (If you're unfamiliar with Git and Github, check out my [Git tutorial]({% post_url 2014-06-23-git %}):
+4. Now push your folder to github so the theme can be applied to your User page (If you're unfamiliar with Git and Github, check out my [Git tutorial]({{ site:url }}/git):
 * `git add .` (the period is supposed to be there - use it to add all the files to Git)
 * `git commit -m "type your message here"
 * `git push origin master`
@@ -64,4 +64,4 @@ If you want to work on this locally (through a folder on your computer) and not 
 * `git commit -m "type your message here"
 * `git push origin master`
 
-Then refresh the page for `username.github.io` and you should see your changes take effect! If you got lost for step number 9, please check out my [Git tutorial]({% post_url 2014-06-23-git %}). That's it for User pages. If you create one from this tutorial, feel free to put a link to it below in the comments section!
+Then refresh the page for `username.github.io` and you should see your changes take effect! If you got lost for step number 9, please check out my [Git tutorial]({{ site:url }}/git). That's it for User pages. If you create one from this tutorial, feel free to put a link to it below in the comments section!
