@@ -4,7 +4,7 @@ title: What is a Github User Page?
 description: "How to make a Github User page"
 tags: [Github, User Page, Project page, Github Repositories]
 image:
-  feature: abstract-8.jpg
+  feature: abstract-6.jpg
 comments: true
 share: true
 ---
