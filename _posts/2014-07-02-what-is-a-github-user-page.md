@@ -10,9 +10,11 @@ share: true
 ---
 
 ## What is a Github User Page?
+
 Good question. I couldn't figure out this very thing. Maybe I don't pick up on things as fast, or maybe I just like to know exactly what I'm dealing with and don't just take it at face value. Github explains a little bit about [pages](https://pages.github.com/) but that wasn't enough for me. Particularly I was wondering what a [User/Organization page was and what a Project page was](https://help.github.com/articles/user-organization-and-project-pages). The differences are spelled out a little, but not simply for us complete noobs.
 
 ### User/Organization Page
+
 As a user, you are allowed one User page that Github uses to display your page. If you are part of an organization, your organization is also allowed one page. What this means is whatever you make your User page, Github will use its master to branch to show it online at 'username.github.io' (I'll explain master branches). You can check out what's on my user page at [trevordjones.github.io](http://trevordjones.github.io). This makes sense then why we can only have one (you can't have multiple sites at 'username.github.io'), so make sure it's not one of your projects or blogs. I suppose you technically could, but it's not adviseable as your address would then be 'username.github.io'. What is recommended is that you use this page as a sort of introduction to yourself. You could also include links on it to your other projects and online profiles. This makes much better sense than using it for a blog.
 
 Github uses your master branch to display your User page. What does that mean? Each repo can have multiple branches, normally a master branch and a gh-pages branch (Github-pages branch). For a User page, Github will use the master branch to display your page online at 'username.github.io'. If you want a page for any other project (like a blog), then it would have a gh-pages branch. This gh-pages branch is the branch Github will use to display those pages you've created for your project.
@@ -24,6 +26,7 @@ As a side note, you can also visit this very same blog at [trevordjones.github.i
 What I will teach you below is how to set up your User page (which can also be used if you're setting up an Organization page). Here is the tutorial for setting up a [Project page]({{ site:url }}/what-is-a-github-project-page), which is very similar. Also feel free to see Github's tutorial at [https://pages.github.com/](https://pages.github.com/). (I will dig into that tutorial more for the project pages tutorial)
 
 #### How to set up a User/Organization Page
+
 Now that you (hopefully) understand pages, on to the good stuff. Make a [repository](https://help.github.com/articles/create-a-repo) (or repo) and name it 'username.github.io' (please use your username here ...) Your full repo should then read 'username/username.github.io'. Then whatever you make here will live at 'http://username.github.io'. It's adviseable that you make this a sort of introductory page for yourself as mine is. Again, you don't want a full blown project living here. You can put links on here for those projects/websites. This is great for an organization as well if you want to show off links to what your team is doing on a nice, customizable page. These steps below are for a User page, but an Organization page has the very same steps - you just do it through your organization rather than through your own account. And I'll be using the terminal for Mac, so substitute Command Prompt for Windows.
 
 If you don't want to use one of Githubs themes for User pages, you don't need to. This just requires that you create your own theme for the look of your page. If this is the case, you only need to do 4 steps (after creating your theme of course, which may take time - and this is not an html/css tutorial, so hopefully you already know how to do that. If not, use the theme). The steps:

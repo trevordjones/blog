@@ -35,9 +35,9 @@ bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
-#links:
-#  - title: Theme Setup
-#    url: /theme-setup
+links:
+ - title: Jekyll Tutorial
+   url: /jekyll
 #  - title: External Link
 #    url: http://mademistakes.com
 #    external: true
@@ -46,7 +46,7 @@ bing_verify:
 timezone:    America/Chicago
 future:      true
 pygments:    true
-highlighter: rouge
+#highlighter: rouge
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

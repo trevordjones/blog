@@ -10,6 +10,7 @@ share: true
 ---
 
 ## How to change the default Devise routes
+
 If you are trying to change the default routes of Devise from '/users/sign_in' or '/users/sign_out' to something more like '/login' or '/logout' you've found out how.
 
 This problem was very frustrating but very simple to solve. Don't look at stackoverflow for this one - those answers are way to complicated for what you are trying to do. Devise has good documentation on it but it was very difficult to find: [Change the default sign_in and sign_out routes](https://github.com/plataformatec/devise/wiki/How-To:-Change-the-default-sign_in-and-sign_out-routes). 
