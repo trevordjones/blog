@@ -10,6 +10,7 @@ share: true
 ---
 
 ## Setting up your Jekyll Theme
+
 Alright, there are two ways to do this:
 
 1. Fork it from the designer's github and then clone it to your computer
@@ -32,4 +33,4 @@ Go to your Github account and [create a repo](https://help.github.com/articles/c
 Next copy the following command `git push -u origin master` and paste it to your terminal and run it. There! If you look at your repo on Github you should see all the files/folders of your theme.
 
 #### All done with that part
-Ok, you are ready to forge ahead. Next we're going to learn about many of the files in your newly created blog!
+Ok, you are ready to forge ahead. Next we're going to learn about many of the files in your newly created blog! Let's hit up the [config file](/jekyll-config-file) first.
