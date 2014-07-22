@@ -9,8 +9,6 @@ comments: true
 share: true
 ---
 
-## Setting up your Jekyll Theme
-
 Alright, there are two ways to do this:
 
 1. Fork it from the designer's github and then clone it to your computer

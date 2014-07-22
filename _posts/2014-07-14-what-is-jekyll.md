@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-## What is Jekyll?
+What is Jekyll?
 
 The hard question. If you can't understand it from their documentation, just know that it is a converter that takes certain files and displays them as a static website. A static website is one that a user doesn't interact with, doesn't create a profile on and save items to his or her account. It's really not much different than Wordpress except it converts different files. 
 

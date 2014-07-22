@@ -9,9 +9,9 @@ comments: true
 share: true
 ---
 
+To get you initially set up and running with your blog, you're going to want to use a theme. 
 
-## Use a Jekyll Theme
-To get you initially set up and running with your blog, you're going to want to use a theme. As you get more comfortable with Jekyll you can really tweak the theme to make it your own or even create your own theme! Which would be awesome. For now, we'll use someone else's. It has all the files/folders necessary for Jekyll so it makes it really easy (and then it's easy to customize as you'll have full acess to all the files).
+As you get more comfortable with Jekyll you can really tweak the theme to make it your own or even create your own theme! Which would be awesome. For now, we'll use someone else's. It has all the files/folders necessary for Jekyll so it makes it really easy (and then it's easy to customize as you'll have full acess to all the files).
 
 There are free themes at [jekyllthemes.org](http://jekyllthemes.org/) and you can surely find premium themes at [Theme Forest](http://themeforest.net/search?utf8=%E2%9C%93&term=jekyll) or another site like that. For our tutorial, we're going to use jekyllthemes.org because we'll be forking it from the designer. 
 

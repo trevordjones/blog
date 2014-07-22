@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-## What is a Github Project page
+What is a Github Project page?
 
 This is a continuation of [Github User Pages](http://www.trevordjones.com/what-is-a-github-user-page). If you don't recall (or want to know) what a User page is, read that link. Project pages (or sites) are for displaying your projects. Basically, you're able to display it outside the confines of Github - meaning you can make it look snazzy and can give it a url of 'username.github.io/project-name'. Of course, you don't have to display your project if you don't want it to have it's own site. If displaying it through your repo on Github is all you want, then great! 
 

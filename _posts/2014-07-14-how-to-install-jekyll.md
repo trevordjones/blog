@@ -9,9 +9,9 @@ comments: true
 share: true
 ---
 
-## How to install Jekyll
+Here are some pre-requisites for getting Jekyll installed. 
 
-Here are some pre-requisites for getting Jekyll installed. After this, you'll probably see why Jekyll says it should only take a few minutes to install, because for the already initiated programmer, they should already have/know all this stuff. But for those who don't...
+After this, you'll probably see why Jekyll says it should only take a few minutes to install, because for the already initiated programmer, they should already have/know all this stuff. But for those who don't...
 
 Here are your pre-recs:
 

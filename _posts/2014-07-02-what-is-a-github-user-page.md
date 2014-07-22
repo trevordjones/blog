@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-## What is a Github User Page?
+What is a Github User Page?
 
 Good question. I couldn't figure out this very thing. Maybe I don't pick up on things as fast, or maybe I just like to know exactly what I'm dealing with and don't just take it at face value. Github explains a little bit about [pages](https://pages.github.com/) but that wasn't enough for me. Particularly I was wondering what a [User/Organization page was and what a Project page was](https://help.github.com/articles/user-organization-and-project-pages). The differences are spelled out a little, but not simply for us complete noobs.
 

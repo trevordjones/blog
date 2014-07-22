@@ -9,8 +9,6 @@ comments: true
 share: true
 ---
 
-##Jekyll _config.yml File
-
 By now you should have your theme set up in your blog repo on Github. Now it's time to dive into the themes to prep them for displaying online! 
 
 First we'll tackle the _config.yml file. There are tons of cool stuff in here you can edit to customize your site. Go ahead and open it up.
