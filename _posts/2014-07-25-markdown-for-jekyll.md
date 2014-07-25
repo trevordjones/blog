@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Important Files in Jekyll"
-description: "Exploring other folders and files"
+title: "How To Write in Markdown for Jekyll"
+description: "Taking a look at Markdown"
 tags: [Jekyll, how to blog with Jekyll, Markdown]
 image:
   background: bg10.jpg
