@@ -42,4 +42,4 @@ Suuuper important folder and one in which you will be spending the majority of y
 ###_drafts
 You also have the ability to save drafts on your site when they're not ready to be published. If your theme does not come with a '_drafts' folder, feel free to make one. Jekyll knows not to take any posts in this folder and make them live.
 
-So those are the very important ones - the ones that most need your attention. The best way to learn here is to dive in and explore, but hopefully this gave you an idea of what to expect in each and how they relate to your site. Next up we'll learn about markdown and we will write our first post!
+So those are the very important ones - the ones that most need your attention. The best way to learn here is to dive in and explore, but hopefully this gave you an idea of what to expect in each and how they relate to your site. Next up we'll [learn about markdown](/markdown-for-jekyll) and we will write our first post!
