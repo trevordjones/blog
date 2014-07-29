@@ -1,7 +1,5 @@
 ##setting up a jekyll website:
 * ###topics: 
-	* introduce markdown
-	* how to add images to your site
 	* writing your first post
 	* linking posts - research this!
 	* gh-pages branch and get it (somewhat) live

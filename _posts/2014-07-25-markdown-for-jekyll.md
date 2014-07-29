@@ -81,4 +81,4 @@ I admit I struggled at first to get an image in my blog post - because I didn't 
 	
 The image source can either be the file location or a link. Very similar to HTML. Just remember to put that "!" at the beginning!! I did not see that when I was first figuring this out.
 
-So there you have it! I recommend using this to write your posts. I believe you can use HTML but it's a bit harder to format and isn't really meant for writing lots of text. Markdown is by far superior and super easy to learn. Now you know how to write a blog post, so let's get one up!
+So there you have it! I recommend using this to write your posts. I believe you can use HTML but it's a bit harder to format and isn't really meant for writing lots of text. Markdown is by far superior and super easy to learn. Now you know how to write a blog post, so [let's get one up]({% post_url 2014-07-29-gh-pages-branch-and-jekyll %})!
