@@ -26,7 +26,7 @@ You'll have to make sure the gh-pages branch isn't your default branch. If it is
 ##WARNING
 Do NOT delete your gh-pages branch if you have no master branch. If this is the case, then simply create a master branch (so in a way you can have an 'original'). Now just ensure that gh-pages is your default branch. Now any customizations you make should be pushed through to your gh-pages branch.
 
-###If you downloaded your them to your computer
+###If you downloaded your theme to your computer
 When you initially push it to Github it will come with a master branch. Make a repo in Github (the same name as your folder) and follow the instructions to push it to Github. 
 
 ###Terminal
