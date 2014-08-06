@@ -24,9 +24,10 @@ For now, just make sure you're linking EXACTLY the way Jekyll says, that is:
 ###Problems linking
 If you are having problems linking with the above syntax, you can use site:url. The syntax looks like this:
 
-	[words to link]({{ site:url }}/file-name)
+	[words to link]({ { site:url } }/file-name)
 
-This way if you ever do change your domain, your links will still work. The above syntax is preferrable, but if you can't get it to work, site:url works just fine.
+
+But you must make sure there are NO spaces between the brackets. I did it this way because I had to make sure it showed up on the page instead of rendering as my actual site url. This way if you ever do change your domain, your links will still work. The above syntax is preferrable, but if you can't get it to work, site:url works just fine.
 
 ####Next Steps
 By now you should have your blog live through gh-pages, a post up, be able to link and are now ready to publish your blog using your purchased domain!
