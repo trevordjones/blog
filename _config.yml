@@ -38,6 +38,8 @@ bing_verify:
 links:
  - title: Jekyll Tutorial
    url: /jekyll
+ - title: Resume
+   url: /resume.pdf
 #  - title: External Link
 #    url: http://mademistakes.com
 #    external: true
