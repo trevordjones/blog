@@ -1,9 +1,9 @@
 ##setting up a jekyll website:
 * ###topics: 
 
-	* linking posts - research this!
+	
 	* setting up a custom domain
-	* get your posts on the front page and limit the amount shown and number shown
+	
 
 
 
