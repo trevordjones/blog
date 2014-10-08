@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AngularJS and Slick Image Carousel"
-description: "Getting your Jekyll blog live with your own domain"
+description: "Using AngularJS and Slick to create an image carousel"
 tags: [AngularJS, Image Carousel, Slick]
 image:
   feature: bg2.jpg
