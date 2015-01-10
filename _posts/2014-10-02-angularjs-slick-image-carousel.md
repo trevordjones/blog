@@ -61,7 +61,7 @@ This next step is where it gets confusing for those who are new. You're supposed
 		
 4. Add this file below the last script inside your body elements.
 
-		'script src="js/app.js" 
+		<script src="js/app.js"></script>
 		
 Ok! That step is done. Next, let's include the `slick` element in our html. If you're not sure what we're doing here, read up on [AngularJS directives](https://docs.angularjs.org/guide/directive). The Slick AngularJS we downloaded comes with a built-in directive allowing us to use it as an element here in our HTML. So now you'll have 
 
@@ -93,17 +93,15 @@ And this is as far as the documentation takes you, which is a little upsetting. 
 </html>
 {% endhighlight %}
 
-Have all your photos listed out like that (be sure to have 4+ photos at least). So now, one would expect to be able to open this page in the browser and find an image slider. But not so! You just see your images going down the page, which makes it look like the `slick` element isn't working at all. And this is the glaring hole in their documentation. There is one more css file we need to include. Copy and paste this in your head section:
+Have all your photos listed out like that (be sure to have 4+ photos at least). So now, one would expect to be able to open this page in the browser and find an image slider. But not so! You just see your images going down the page, which makes it look like the `slick` element isn't working at all. 
 
-	<link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/css/style.css">
-	
-This is an incredibly important bit of css that will finish off the styling of your slider and allow you to customize as you like. Why it's left out is anyone's guess. Now let's refresh the page - wait, it still doesn't work! Gotcha again. If you open up the console you'll see there was an error fetching your JQuery file. Well, turns out they give you the wrong location for it. Go back to your body and where the script element is for JQuery, substitute it with this:
+If you open up the console you'll see there was an error fetching your JQuery file. Well, turns out they give you the wrong location for it. Go back to your body and where the script element is for JQuery, substitute it with this:
 
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	
 I guess they forgot the 'jquery.js' file is located in the 'dist' folder. I don't know. Now refresh your page. You'll most likely get a big image of your first picture with no way of sliding over to the next one. We're on the right track.
 
-We want to add some additional settings to our 'slick' element to allow us to scroll through the images. If you're unfamiliar with Slick, this is the part that is amazing and why I like it so much. It's dead simple to get your slider to look/act the way you want. You have tons of options to include. Click to go to all [Slick settings](http://kenwheeler.github.io/slick/#settings). Anything you want to add, you do so like this: 
+We want to add some additional settings to our 'slick' element to allow us to scroll through the images. If you're unfamiliar with Slick, this is the part that is amazing and why I like it so much. It's dead simple to get your slider to look/act the way you want. You have tons of options to include. Click to go to all [Slick settings](http://kenwheeler.github.io/slick/#settings). Anything you want to add, you do so like this (this goes right after the first slick element in your html): 
 
 	<slick dots=true infinite=true speed=300 slides-to-show=3 slides-to-scroll=3> 
 	
