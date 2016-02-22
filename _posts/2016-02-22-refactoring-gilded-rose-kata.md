@@ -1,3 +1,15 @@
+---
+layout: post
+title: "SRP Classes and Gilded Rose Kata"
+description: "One way to refactor the Gilded Rose Kata"
+tags: [Object Oriented Design, single responsibility classes, SOLID]
+image:
+  background: bg2.jpg
+  comments: true
+share: true
+---
+Refactoring the Gilded Rose Kata - Object Oriented Design Patterns
+
 I've been trying to increase my Object Oriented design skills and someone recommended I look at the Gilded Rose kata. It's an interesting kata and definitely one I recommend as well. It's a refactoring kata - you're taking poorly written code and making it more truly line up with OO design. I've got my final product at [https://github.com/trevordjones/gilded\_rose\_kata](https://github.com/trevordjones/gilded_rose_kata)
 
 I started by forking from [Jim Weirich's repo](https://github.com/jimweirich/gilded_rose_kata). I changed up his tests as they seem a bit dated and were super confusing themselves. It's a good exercise in test writing, so I suggest you start there. DEFINITELY do it before you touch any of the other code. You want to make sure all your tests are in the green before you start refactoring. If testing is not your thing, you can grab mine from my repo in the link above. Looking through and understanding the tests will also help you understand what the code is doing. It's super confusing. There are about 20 if statements you have to read through.
