@@ -10,28 +10,28 @@ url:              http://www.trevordjones.com
 owner:
   name:           Trevor Jones
   avatar:         avatar.jpg
-  bio:            My name is Trevor Jones and this summer I'm learning how to develop websites and web applications. I'll be blogging to people with a non-technical background so they don't have to scratch their heads.
+  bio:            My name is Trevor Jones. I wanted to set up a technical blog for people with a non-technical background so they don't have to scratch their heads (as much, head scratching come with the territory). For now, the blog focuses on Ruby/Rails and JavaScript. I'm always learning more though.
   email:          trevordjones@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        fantastictrevor
-  facebook:       
+  facebook:
   github:         trevordjones
-  stackexchange:  
+  stackexchange:
   linkedin:       trevdjones
-  instagram:      
-  flickr:         
-  tumblr:         
+  instagram:
+  flickr:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:   https://plus.google.com/+TrevorJones13/authorship
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-28714331-1
-google_verify:      
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
