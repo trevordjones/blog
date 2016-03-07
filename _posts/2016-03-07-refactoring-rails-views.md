@@ -4,7 +4,7 @@ title: "Refactoring Views in Rails"
 description: "Refactor logic out of a Rails view"
 tags: [Ruby, Rails, Refactoring]
 image:
-  background: abstract-7.jpg
+  background: bg8.png
   comments: true
 share: true
 ---
