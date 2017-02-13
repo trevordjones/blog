@@ -1,5 +1,5 @@
 title:            Trevor Jones
-description:      Blogging with new web developers in mind. Learn to program without a technical background
+description:      Blogging with new web developers in mind. Learn to program without a technical background.
 disqus_shortname: trevordjones
 reading_time:     false
 words_per_minute: 200
@@ -10,7 +10,7 @@ url:              http://www.trevordjones.com
 owner:
   name:           Trevor Jones
   avatar:         avatar.jpg
-  bio:            My name is Trevor Jones. I wanted to set up a technical blog for people with a non-technical background so they don't have to scratch their heads (as much, head scratching come with the territory). For now, the blog focuses on Ruby/Rails and JavaScript. I'm always learning more though.
+  bio:            My name is Trevor Jones. I wanted to set up a technical blog for people with a non-technical background so they don't have to scratch their heads (as much, head scratching comes with the territory). For now, the blog focuses on Ruby/Rails and JavaScript. I'm always learning more though.
   email:          trevordjones@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        fantastictrevor
