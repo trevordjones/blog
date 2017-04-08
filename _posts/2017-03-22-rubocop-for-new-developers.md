@@ -23,6 +23,8 @@ How I wish I had. I started a new job back in September and my boss is extremely
 
 Don't let that be you.
 
+### Setting up Rubocop
+
 If you just finished a bootcamp or are still in one, start being strict with yourself. Start learning the rules and start following them. The best way to do that is with Rubocop and a solid linter. This is my setup:
 
 * Atom as my text editor (duh, it's free and amazing)
