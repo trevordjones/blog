@@ -34,8 +34,8 @@ If you just finished a bootcamp or are still in one, start being strict with you
   * linter-rubocop
 * rubocop.yml file - if you don't have one, you can grab one [here](https://gist.github.com/trevordjones/c1978320b5e1afecc92a49d510c8b2fe).
 
-Then in your settings for linter-rubocop you can put something like this in the command line `/path_to/.rbenv/versions/2.3.1/bin/rubocop --config /path_to/.rubocop.yml`
+Then in your settings for linter-rubocop you can put something like this in the command line "/path_to/.rbenv/versions/2.3.1/bin/rubocop --config /path_to/.rubocop.yml"
 
-You run the `rubocop` command and pass in the path to where your `.rubocop.yml` file is. This section from the package tells you where you can find the path to your `rubocop` command.
+You run the "rubocop" command and pass in the path to where your ".rubocop.yml" file is. This section from the package tells you where you can find the path to your "rubocop" command.
 
 Then sit back and let the magic begin. Write some code, see what the suggestions are, and then (and this is the important part) *actually take the suggestions!*. I know it take you longer to write code - but that is only short term. You will get better and better at coding if you're persistent with best practices. Just do it!
