@@ -9,8 +9,8 @@ url:              http://www.trevordjones.com
 # Owner/author information
 owner:
   name:           Trevor Jones
-  avatar:         avatar.jpg
-  bio:            My name is Trevor Jones. I wanted to set up a technical blog for people with a non-technical background so they don't have to scratch their heads (as much, head scratching comes with the territory). For now, the blog focuses on Ruby/Rails and JavaScript. I'm always learning more though.
+  avatar:         avatar.jpeg
+  bio:            My name is Trevor Jones. I set up a technical blog for people with a non-technical background to help them in their journey of becoming a developer. For now, the blog focuses on Ruby/Rails, JavaScript and a little bit of Elixir. I'm always learning more though.
   email:          trevordjones@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        fantastictrevor

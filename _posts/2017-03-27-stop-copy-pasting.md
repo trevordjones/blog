@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stopy Copy/Pasting"
+title: "Stop Copy/Pasting"
 description: "Why you should stop copy/pasting in order to increase your learning."
 tags: [coding, programming, software engineering]
 image:
